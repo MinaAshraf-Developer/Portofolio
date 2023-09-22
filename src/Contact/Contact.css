@@ -1,0 +1,57 @@
+.contact {
+
+    background: linear-gradient(to right, purple, #6c63ff, #9d79ff, #c88fff);
+    position: relative;
+    height: 50vh;
+}
+
+.contact .container {
+    padding: 40px;
+}
+
+.contact img {
+    width: 100%;
+    max-width: 400px;
+    
+    height: auto;
+    display: block;
+    margin:  auto;
+
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact input[type="tel"],
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contain {
+    text-align: center;
+    margin-left: 50px;
+}
+
+.contact .success {
+    color: green;
+}
+
+.contact .danger {
+    color: red;
+}
+
+textarea {
+    width: 100%;
+}

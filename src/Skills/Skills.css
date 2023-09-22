@@ -1,0 +1,70 @@
+.skill {
+    padding: 0 0 50px 0;
+    position: relative;
+}
+/* .skill .skill-box .percent {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(90deg, rgb(173, 50, 124), rgb(73, 47, 189));
+    border-radius: 50%;
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.skill .skill-box .percent::before {
+    content: "90%";
+    width: 80px;
+    height: 80px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+
+
+
+
+.skill .skill-box {
+    background-color: #151515;
+ 
+    border-radius: 65px;
+    text-align: center;
+    padding: 60px 50px;
+    margin-top: -60px;
+}
+
+.skill h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.skill p {
+    color: #BBBBBB;
+    font-size:  18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 0 75px 0;
+}
+
+.skill .skill-slider {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.skill .skill-slider .item img {
+    width: 50%;
+    margin: 0 auto 15px auto;
+}
+
+.skill .background-image-left {
+    top: 28%;
+    position: absolute;
+    bottom: 0;
+    width: 40%;
+    z-index: -4;
+}
